@@ -22,18 +22,30 @@
  *
  */
 
-const char* tone_uri[] = {
-   "flash://tone/0_Alarm.mp3",
-   "flash://tone/1_Under_Smartconfig.mp3",
-   "flash://tone/2_Wifi_Reconnect.mp3",
-   "flash://tone/3_Wifi_Success.mp3",
-   "flash://tone/4_please_setting_wifi.mp3",
-   "flash://tone/5_server_connect.mp3",
-   "flash://tone/6_server_disconnect.mp3",
-};
+#ifndef __AUDIO_TONEURI_H__
+#define __AUDIO_TONEURI_H__
 
-int get_tone_uri_num()
-{
-    return sizeof(tone_uri) / sizeof(char *) - 1;
-}[jeferson@jef ESPHome]$ 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
+extern const char* tone_uri[];
+
+typedef enum {
+    TONE_TYPE_ALARM,
+    TONE_TYPE_UNDER_SMARTCONFIG,
+    TONE_TYPE_WIFI_RECONNECT,
+    TONE_TYPE_WIFI_SUCCESS,
+    TONE_TYPE_PLEASE_SETTING_WIFI,
+    TONE_TYPE_SERVER_CONNECT,
+    TONE_TYPE_SERVER_DISCONNECT,
+    TONE_TYPE_MAX,
+} tone_type_t;
+
+int get_tone_uri_num();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
