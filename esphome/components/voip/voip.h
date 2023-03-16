@@ -8,7 +8,7 @@ namespace voip_component {
 class VoipComponent : public Component {
  public:
   void setup() override;
-  void set_sip_url() override;
+  void set_sip_url();
   void loop() override;
   void dump_config() override;
 };
