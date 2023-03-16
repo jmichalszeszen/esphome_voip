@@ -1,6 +1,7 @@
 #pragma once
 
 #include "esphome/core/component.h"
+#include "sip_service.h"
 
 namespace esphome {
 namespace voip_component {
