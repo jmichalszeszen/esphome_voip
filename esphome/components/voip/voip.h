@@ -3,14 +3,15 @@
 #include "esphome/core/component.h"
 
 namespace esphome {
-namespace voip_sensor {
+namespace voip_component {
 
-class VoipSensor : public voip_sensor::VoipSensor, public PollingComponent {
+class VoipComponent : public Component {
  public:
   void setup() override;
-  void update() override;
+  void loop() override;
   void dump_config() override;
 };
 
-} //namespace voip_sensor
-} //namespace esphome
+
+}  // namespace voip_component
+}  // namespace esphome
