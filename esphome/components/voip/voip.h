@@ -3,9 +3,9 @@
 #include "esphome/core/component.h"
 
 namespace esphome {
-namespace voip {
+namespace voip_component {
 
-class Voip : public Component {
+class VoipComponent : public Component {
  public:
   void setup() override;
   void loop() override;
@@ -13,5 +13,5 @@ class Voip : public Component {
 };
 
 
-}  // namespace voip
+}  // namespace voip_component
 }  // namespace esphome
