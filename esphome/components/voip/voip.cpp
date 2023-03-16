@@ -11,7 +11,7 @@ void VoipComponent::setup() {
 }
     
 void VoipComponent::set_sip_url(const char *sip_url) {
-
+    ESP_LOGCONFIG(TAG, sip_url);
 }    
 
 void VoipComponent::loop() {
