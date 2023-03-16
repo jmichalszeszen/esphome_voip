@@ -10,7 +10,7 @@ void VoipComponent::setup() {
 
 }
     
-void VoipComponent::set_sip_url(const char *uri) {
+void VoipComponent::set_sip_url(const char *sip_url) {
 
 }    
 
