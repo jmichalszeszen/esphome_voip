@@ -1,5 +1,5 @@
 #include "esphome/core/log.h"
-#include "voip_component.h"
+#include "voip.h"
 
 namespace esphome {
 namespace voip_component {
