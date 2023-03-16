@@ -3,7 +3,7 @@
 #include "esphome/core/component.h"
 
 namespace esphome {
-namespace voip_component {
+namespace voip {
 
 class VoipComponent : public Component {
  public:
@@ -13,5 +13,5 @@ class VoipComponent : public Component {
 };
 
 
-}  // namespace voip_component
+}  // namespace voip
 }  // namespace esphome
