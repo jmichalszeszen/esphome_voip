@@ -9,6 +9,10 @@ static const char *TAG = "voip_component.component";
 void VoipComponent::setup() {
 
 }
+    
+void VoipComponent::set_sip_url() {
+
+}    
 
 void VoipComponent::loop() {
 
