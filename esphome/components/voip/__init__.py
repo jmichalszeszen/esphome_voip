@@ -13,5 +13,9 @@ CONFIG_SCHEMA = cv.Schema({
 })
     
 def to_code(config):
+    cg.add_library('Voip', '0.0.1')
+        
     var = cg.new_Pvariable(config[CONF_ID])
     yield cg.register_component(var, config)
+
+    cg.add(var.set_sip_url(config[CONF_SIP_URL]))
