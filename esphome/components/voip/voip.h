@@ -5,7 +5,7 @@
 namespace esphome {
 namespace voip {
 
-class VoipComponent : public Component {
+class Voip : public Component {
  public:
   void setup() override;
   void loop() override;
