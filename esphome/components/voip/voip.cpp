@@ -1,20 +1,23 @@
+#include "esphome/core/log.h"
+#include "voip_component.h"
+
 namespace esphome {
-namespace voip {
+namespace voip_component {
 
-static const char *TAG = "voip.component";
+static const char *TAG = "voip_component.component";
 
-void Voip::setup() {
-
-}
-
-void Voip::loop() {
+void VoipComponent::setup() {
 
 }
 
-void Voip::dump_config(){
+void VoipComponent::loop() {
+
+}
+
+void VoipComponent::dump_config(){
     ESP_LOGCONFIG(TAG, "Voip component");
 }
 
 
-}  // namespace voip
+}  // namespace voip_component
 }  // namespace esphome
