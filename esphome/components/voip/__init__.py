@@ -9,7 +9,7 @@ VoipComponent = voip_component_ns.class_('VoipComponent', cg.Component)
 
 CONFIG_SCHEMA = cv.Schema({
     cv.GenerateID(): cv.declare_id(VoipComponent),
-    cv.Optional(CONF_SIP_URL, default=""): cv.string_strict
+    cv.Optional(CONF_SIP_URL, default="nao definida"): cv.string
 })
     
 def to_code(config):
@@ -19,3 +19,4 @@ def to_code(config):
     yield cg.register_component(var, config)
 
     cg.add(var.set_sip_url(config[CONF_SIP_URL]))
+
