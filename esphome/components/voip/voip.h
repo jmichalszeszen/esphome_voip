@@ -22,7 +22,6 @@ struct VoipSettings {
   std::string sip_url;
 };
 
-
 class VoipComponent : public Component {
  public:
    void setup() override;

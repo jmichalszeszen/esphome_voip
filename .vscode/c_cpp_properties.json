@@ -3,7 +3,22 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/home/jeferson/Desenv/esphome/esphome/",
+                "/home/jeferson/.platformio/packages/framework-arduinoespressif32/cores/esp32/",
+                "/home/jeferson/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/esp_wifi/include/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/esp_common/include/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/spi_flash/sim/sdkconfig/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/esptool_py/esptool",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/espcoredump",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/partition_table",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/app_update",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/esp_hw_support/include/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/esp_event/include/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/freertos/esp_additions/include/freertos/",
+                "/home/jeferson/DESENV/ESP/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/"
             ],
             "defines": [],
             "compilerPath": "/usr/lib64/ccache/clang",
