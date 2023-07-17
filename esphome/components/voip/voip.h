@@ -3,10 +3,10 @@
 #ifndef _VOIP_H
 #define _VOIP_H
 
-#include "esphome/core/component.h"
-#include "esphome/core/application.h"
-#include <Udp.h>
-#include "abc.h"
+// #include "esphome/core/component.h"
+// #include "esphome/core/application.h"
+// #include <Udp.h>
+// #include "abc.h"
 
 #if defined ESP8266 || defined ARDUINO_ESP8266_ESP01
     #include <ESP8266WiFi.h>
