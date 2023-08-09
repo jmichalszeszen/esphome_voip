@@ -7,14 +7,11 @@
 #include "esp_wifi.h"
 #include "esp_system.h"
 #include "esp_event.h"
-#include "esp_event_loop.h"
 #include "nvs_flash.h"
 
 #include "sip_client/lwip_udp_client.h"
 #include "sip_client/mbedtls_md5.h"
 #include "sip_client/sip_client.h"
-
-#include "button_handler.h"
 
 #include <string.h>
 
