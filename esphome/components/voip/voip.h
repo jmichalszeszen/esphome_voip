@@ -3,6 +3,11 @@
 #ifndef _VOIP_H
 #define _VOIP_H
 
+#include "esphome/core/component.h"
+#include "esphome/core/application.h"
+#include <Udp.h>
+#include "esphome/core/log.h"
+
 #include <string.h>
 // #include "abc.h"
 
